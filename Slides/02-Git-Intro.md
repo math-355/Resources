@@ -1,8 +1,4 @@
-% Math 355: Math for Machine Learning 
-% Fall 2019
-% Branden Stone
-
-# Day 1 Introduction to GitHub
+# Introduction to GitHub
 
 ## Getting started with Git
 
@@ -17,7 +13,7 @@ Today we will discuss the delivery method of all course materials, assignments, 
 
 If you don't already have an account, you will need a GitHub account. You can do so here: [https://github.com/](https://github.com/).
 
-- I'll wait here while you do this. ![](./src/img/cat-waiting.gif)
+- I'll wait here while you do this. ![](./img/cat-waiting.gif)
 - Once you are finished, come up and enter your username on my computer, this send out an email inviting you to join the class. 
 
 ## Welcome to the class!
@@ -26,7 +22,7 @@ If you don't already have an account, you will need a GitHub account. You can do
 > - [`https://github.com/math-355`](https://github.com/math-355)
 > - The page should look something like this. Feel free to poke around. 
 
-![](./src/img/organization-landing-page.png)
+![](./img/organization-landing-page.png)
 
 ## Mandatory Syllabus time.
 
