@@ -1,2 +1,11 @@
 # Resources
-Collection of resources and notes to complement the course. More to come.
+
+Here are some links to resources that might help you during the semester. 
+
+## Books
+
+## Articles
+
+## Websites
+
+
