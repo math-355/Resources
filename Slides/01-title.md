@@ -1,3 +1,5 @@
-% Math 355: Math for Machine Learning 
-% Fall 2019
-% Branden Stone
+---
+title: Math for Machine Learning 
+date: Fall 2019
+author: Branden Stone
+---

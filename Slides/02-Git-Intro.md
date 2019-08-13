@@ -1,39 +1,51 @@
-# Introduction to GitHub
-
 ## Getting started with Git
 
 Today we will discuss the delivery method of all course materials, assignments, and projects. This method will rely on learning `git`. 
 
 - According to [Wikipedia](https://en.wikipedia.org/wiki/Git_(software)), "Git is a version control system that is used for software development and other version control tasks. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows." 
-- Basically, it is a more sophisticated Dropbox and allows you to keep your code up to date across multiple platforms. 
+
+------
+
+> - Basically, it is a more sophisticated Dropbox and allows you to keep your code up to date across multiple platforms. 
+
 - A complete walk through of Git can be found online at [`https://git-scm.com/book/en/v2`](https://git-scm.com/book/en/v2). 
 - Today we will only learn the basics. 
+
 
 ## Sign up with GitHub
 
 If you don't already have an account, you will need a GitHub account. You can do so here: [https://github.com/](https://github.com/).
 
 - I'll wait here while you do this. ![](./img/cat-waiting.gif)
-- Once you are finished, come up and enter your username on my computer, this send out an email inviting you to join the class. 
 
-## Welcome to the class!
+::: notes
 
-> - Once you have accepted your invite, you now have access to the coures materials.
-> - [`https://github.com/math-355`](https://github.com/math-355)
-> - The page should look something like this. Feel free to poke around. 
+- Once you are finished, come up and enter your username on my computer.
+- This will send out an invitation to your account.
 
-![](./img/organization-landing-page.png)
+:::
 
-## Mandatory Syllabus time.
+## 
 
-You can find the syllabus as well as resources on the landing page [`https://github.com/math-355`](https://github.com/math-355)
+Once you have accepted your invite, you now have access to the coures materials. The page should look something like this. Feel free to poke around. 
+
+> - [`https://github.com/math-355`](https://github.com/math-355 =50x50)
+
+<img src="./img/organization-landing-page.png" width="600"/>
+
+::: notes
+
+- After everyone is signed up, go to the syllabus page and talk about it.
+- Once done come back here for Git stuff. 
+
+:::
 
 
-## Cloning Forking a Repo
+## Cloning a Repo
 
-First, what is a repo and why would you want to do these things to it? __Repo__ is short for repository which is basically a directory of files and folders. Think of your GitHub account as a large folder containing other folders (repos). Each repo is a different project, or in this case, a weekly objective. If you just created a GitHub account, then you don't have any repos yet. We are going to change that.
+First, what is a repo and why would you want to clone it? __Repo__ is short for repository which is basically a directory of files and folders. Individually you have a GitHub account and you are now members of the GitHub Organization Math-355. All examples, homework, syllabi, resources, etc. will be stored in individual repos in the organization (not your personal account)
 
-This is where forking comes in. You need to copy the `Lab01-Intro-to-GitHub-Spring-2018` repo into your account. This way you can edit/add files. A __Fork__ of a repo is like a fork in a road. There is a main road (the original `Lab01-Intro-to-GitHub-Spring-2018` repo) and a fork off the road (your repo). At any time you are editing the forked repo (or traveling the forked road), you can go back to the original.  
+<!-- This is where forking comes in. You need to copy the `Lab01-Intro-to-GitHub-Spring-2018` repo into your account. This way you can edit/add files. A __Fork__ of a repo is like a fork in a road. There is a main road (the original `Lab01-Intro-to-GitHub-Spring-2018` repo) and a fork off the road (your repo). At any time you are editing the forked repo (or traveling the forked road), you can go back to the original.  
 
 Forking the a repo is super easy. All you need to do is click the fork button at the top of this page ([https://github.com/csc-171/Lab01-Intro-to-GitHub-Spring-2018](https://github.com/csc-171/Lab01-Intro-to-GitHub-Spring-2018)) and select the account to fork to. __Do this now, then scroll down to this spot on the new page.__ 
 
@@ -45,8 +57,64 @@ Bam! You have forked a repo! Congratulations. If all went well, you should see s
 The only difference is that your username should be displayed and not `b-stone`. I.e. you should see something like this, `YOURUSERNAME/Lab01-Intro-to-GitHub-Spring-2018`. 
 
 __From now on, this is the first thing you should do when you start a lab in this class.__
+ -->
 
-So now what? You have a forked repo sitting on some server. How do you get your hands on it? Well you could use the GitHub interface, but that is lame. So we need to get the files to your local machine. There are several ways to do this, but the cool kids like to clone. __Cloning__ is just copying and pasting the repo to your local machine. To do this we need to get our hands a little dirty with the following steps.
+------
+
+So now what? All of your desired repos are sitting on some magical server. How do you get your hands on it? 
+
+1. Use the GitHub interface (lame)
+    - Downloading this way does not allow for version control
+    - This will result in 1990s style backups
+2. Use `git` to clone the repo (cool kids do this)
+    - `git` will allow for the server and your local machine to communicate
+    - This way all local changes can be pushed to the server. 
+
+::: notes
+
+- Stop and talk about these points
+
+:::    
+
+
+## GitHub Interface {data-background-color="#ff0000"}
+
+We will walk through this method, but working this way will NOT allow you to turn in homework. 
+
+[https://github.com/math-355](https://github.com/math-355)
+
+
+## Command Line with `git` 
+
+
+```
+$ git clone https://github.com/YOURUSERNAME/Lab01-Intro-to-GitHub-Spring-2018.git
+$ cd Lab01-Intro-to-GitHub-Spring-2018
+$ ls
+```
+
+
+<pre><code class="hljs" data-trim data-line-numbers="4,8-11">
+import React, { useState } from 'react';
+
+function Example() {
+  const [count, setCount] = useState(0);
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;You clicked {count} times&lt;/p&gt;
+      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;&lt;button onClick={() =&gt; setCount(count + 1)}&gt;&lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+        Click me
+      &lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre>
+
+
+------
+
+Well you could use the GitHub interface, but that is lame. So we need to get the files to your local machine. There are several ways to do this, but the cool kids like to clone. __Cloning__ is just copying and pasting the repo to your local machine. To do this we need to get our hands a little dirty with the following steps.
 
 * Open `Git Bash` (or `Git Shell` on some machines) on your machine. This is a command line interface that allows you to communicate with GitHub.
 * Once you have `Git Bash` open, type `cd Desktop` and hit enter. This will make sure all downloads are placed on your desktop.
