@@ -8,13 +8,13 @@ Here are some links to resources that might help you during the semester.
 
 ## Books
 
-- [https://mml-book.github.io/](Mathematics for Machine Learning): The main textbook of the course.
-- [`https://github.com/jakevdp/WhirlwindTourOfPython`](Whirlwind Tour Of Python): Jupyter Notebooks that give a very quick introduction to the Python Language.
-- [`https://github.com/jakevdp/PythonDataScienceHandbook`](Python Data Science Handbook): Introduces the core libraries essential for working with data in Python; particularly IPython, NumPy, Pandas, Matplotlib, Scikit-Learn, and related packages.
+- [`Mathematics for Machine Learning`](https://mml-book.github.io/): The main textbook of the course.
+- [`Whirlwind Tour Of Python`](https://github.com/jakevdp/WhirlwindTourOfPython): Jupyter Notebooks that give a very quick introduction to the Python Language.
+- [`Python Data Science Handbook`](https://github.com/jakevdp/PythonDataScienceHandbook): Introduces the core libraries essential for working with data in Python; particularly IPython, NumPy, Pandas, Matplotlib, Scikit-Learn, and related packages.
 
 ## Articles
 
-- [`https://www.burtchworks.com/wp-content/uploads/2018/05/Burtch-Works-Study_DS-2018.pdf`](Burtch Works Data Science Salary Survey, May 2018)
+- [`Burtch Works Data Science Salary Survey, May 2018`](https://www.burtchworks.com/wp-content/uploads/2018/05/Burtch-Works-Study_DS-2018.pdf)
 
 ## Websites
 
