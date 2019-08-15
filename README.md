@@ -18,9 +18,9 @@ Here are some links to resources that might help you during the semester.
 
 ## Websites
 
-- [`https://www.reddit.com/r/datascience/wiki/resources`](/r/datascience wiki): This has lots of different recourses. 
+- [`/r/datascience wiki`](https://www.reddit.com/r/datascience/wiki/resources): This has lots of different recourses. 
 - [`https://www.kaggle.com/`](https://www.kaggle.com/): Lots of different data sets to play with in a fun interactive environment.
-- [`https://archive.ics.uci.edu/ml/index.php`](UC Irvine Machine Learning Repository): 481 data sets to learn on. 
-- [`https://arxiv.org/abs/1801.05894`](Deep Learning: An Introduction for Applied Mathematicians): A math article on artificial neural networks. 
+- [`UC Irvine Machine Learning Repository`](https://archive.ics.uci.edu/ml/index.php): 481 data sets to learn on. 
+- [`Deep Learning: An Introduction for Applied Mathematicians`](https://arxiv.org/abs/1801.05894): A math article on artificial neural networks. 
 
 
