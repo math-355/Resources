@@ -8,7 +8,7 @@ Here are some links to resources that might help you during the semester.
 
 ## Books
 
-- [`https://mml-book.github.io/`](Mathematics for Machine Learning): The main textbook of the course.
+- [https://mml-book.github.io/](Mathematics for Machine Learning): The main textbook of the course.
 - [`https://github.com/jakevdp/WhirlwindTourOfPython`](Whirlwind Tour Of Python): Jupyter Notebooks that give a very quick introduction to the Python Language.
 - [`https://github.com/jakevdp/PythonDataScienceHandbook`](Python Data Science Handbook): Introduces the core libraries essential for working with data in Python; particularly IPython, NumPy, Pandas, Matplotlib, Scikit-Learn, and related packages.
 
