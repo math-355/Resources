@@ -66,8 +66,9 @@
 </ul>
 <aside class="notes">
 <ul>
-<li>Once you are finished, come up and enter your username on my computer.</li>
-<li>This will send out an invitation to your account.</li>
+<li>Once you are finished, go to blackboard and click on the first homework a for Week 01</li>
+<li>This will send me your github info</li>
+<li>I will use this to send an invitation</li>
 </ul>
 </aside>
 </section>
@@ -88,19 +89,6 @@
 <section id="cloning-a-repo" class="slide level2">
 <h2>Cloning a Repo</h2>
 <p>First, what is a repo and why would you want to clone it? <strong>Repo</strong> is short for repository which is basically a directory of files and folders. Individually you have a GitHub account and you are now members of the GitHub Organization Math-355. All examples, homework, syllabi, resources, etc. will be stored in individual repos in the organization (not your personal account)</p>
-<!-- This is where forking comes in. You need to copy the `Lab01-Intro-to-GitHub-Spring-2018` repo into your account. This way you can edit/add files. A __Fork__ of a repo is like a fork in a road. There is a main road (the original `Lab01-Intro-to-GitHub-Spring-2018` repo) and a fork off the road (your repo). At any time you are editing the forked repo (or traveling the forked road), you can go back to the original.  
-
-Forking the a repo is super easy. All you need to do is click the fork button at the top of this page ([https://github.com/csc-171/Lab01-Intro-to-GitHub-Spring-2018](https://github.com/csc-171/Lab01-Intro-to-GitHub-Spring-2018)) and select the account to fork to. __Do this now, then scroll down to this spot on the new page.__ 
-
-Bam! You have forked a repo! Congratulations. If all went well, you should see something like this at the top of the page:
-
-![image](https://cloud.githubusercontent.com/assets/1364138/22265221/0ff60978-e249-11e6-9b2e-c9cf97f7321c.png)
-
-
-The only difference is that your username should be displayed and not `b-stone`. I.e. you should see something like this, `YOURUSERNAME/Lab01-Intro-to-GitHub-Spring-2018`. 
-
-__From now on, this is the first thing you should do when you start a lab in this class.__
- -->
 </section>
 <section class="slide level2">
 
@@ -130,10 +118,38 @@ __From now on, this is the first thing you should do when you start a lab in thi
 </section>
 <section id="command-line-with-git" class="slide level2">
 <h2>Command Line with <code>git</code></h2>
-<pre><code>$ git clone https://github.com/YOURUSERNAME/Lab01-Intro-to-GitHub-Spring-2018.git
-$ cd Lab01-Intro-to-GitHub-Spring-2018
+<ul>
+<li>If you have a mac or linux, you’re done.</li>
+<li>Or you could follow along and get a newer version of <code>git</code>.</li>
+</ul>
+<ul>
+<li class="fragment">If you have Windows OS, then you will need to download and install <code>git</code>.</li>
+<li class="fragment"><a href="https://git-scm.com/download/">https://git-scm.com/download/</a></li>
+<li class="fragment">This should install a program called <code>git bash</code>. (I think)</li>
+</ul>
+</section>
+<section id="navigating-the-command-line" class="slide level2">
+<h2>Navigating the command line</h2>
+<p>Once you have <code>git</code> installed, open up <code>terminal</code> (mac/linux) or <code>git bash</code> (windows).</p>
+<ul>
+<li class="fragment"><code>ls</code> — gives you a list of items in the directory</li>
+<li class="fragment"><code>cd DIRCTORY</code> — changes directory to one you can see with <code>ls</code></li>
+<li class="fragment"><code>cd ..</code> — moves up a directory</li>
+</ul>
+<aside class="notes">
+<p>Try it out!</p>
+</aside>
+</section>
+<section id="our-first-clone" class="slide level2">
+<h2>Our first clone</h2>
+<p>It’s time to clone a repo. Go to your a first homework assignment and click on the button that says <code>Clone or download</code>, then copy the link. Then type the following into the command line.</p>
+<pre><code>$ git clone COPIEDLINK
+$ cd week-01-getting-started-fall-2019-USERNAME
 $ ls</code></pre>
-<pre><code class="hljs" data-trim data-line-numbers="4,8-11">
+<aside class="notes">
+<p>Make sure and mention what the $ is for</p>
+</aside>
+<!-- <pre><code class="hljs" data-trim data-line-numbers="4,8-11">
 import React, { useState } from 'react';
 
 function Example() {
@@ -149,90 +165,74 @@ function Example() {
   );
 }
 </code></pre>
-</section>
-<section class="slide level2">
+ -->
+<!-- Well you could use the GitHub interface, but that is lame. So we need to get the files to your local machine. There are several ways to do this, but the cool kids like to clone. __Cloning__ is just copying and pasting the repo to your local machine. To do this we need to get our hands a little dirty with the following steps.
 
-<p>Well you could use the GitHub interface, but that is lame. So we need to get the files to your local machine. There are several ways to do this, but the cool kids like to clone. <strong>Cloning</strong> is just copying and pasting the repo to your local machine. To do this we need to get our hands a little dirty with the following steps.</p>
-<ul>
-<li class="fragment">Open <code>Git Bash</code> (or <code>Git Shell</code> on some machines) on your machine. This is a command line interface that allows you to communicate with GitHub.</li>
-<li class="fragment">Once you have <code>Git Bash</code> open, type <code>cd Desktop</code> and hit enter. This will make sure all downloads are placed on your desktop.</li>
-<li class="fragment">Look for a green button on this page that says <code>Clone or download</code>, click it, and copy the text. It should look something like this: <code>https://github.com/YOURUSERNAME/Lab01-Intro-to-GitHub-Spring-2018.git</code>.</li>
-<li class="fragment">Go back to Git Bash and enter the following (note, don’t enter the <code>$</code>, it’s just there to tell you that is the start of the line):</li>
-</ul>
-<pre><code>$ git clone https://github.com/YOURUSERNAME/Lab01-Intro-to-GitHub-Spring-2018.git</code></pre>
-<ul>
-<li class="fragment">Next change directory to the repo by typing:</li>
-</ul>
-<pre><code>$ cd Lab01-Intro-to-GitHub-Spring-2018</code></pre>
-<ul>
-<li class="fragment">Look into the repo by typing:</li>
-</ul>
-<pre><code>$ ls</code></pre>
-<p>You see? All of the files are there! This is great right? Now you have a local copy of the repo sitting on your machine. No matter what you do, you will not mess up the originals. All of your edits/changes will be local on your machine until you push your changes back to the server. So let’s do that.</p>
+* Open `Git Bash` (or `Git Shell` on some machines) on your machine. This is a command line interface that allows you to communicate with GitHub.
+* Once you have `Git Bash` open, type `cd Desktop` and hit enter. This will make sure all downloads are placed on your desktop.
+* Look for a green button on this page that says `Clone or download`, click it, and copy the text. It should look something like this: `https://github.com/YOURUSERNAME/Lab01-Intro-to-GitHub-Spring-2018.git`. 
+* Go back to Git Bash and enter the following (note, don't enter the `$`, it's just there to tell you that is the start of the line):
+```
+$ git clone https://github.com/YOURUSERNAME/Lab01-Intro-to-GitHub-Spring-2018.git
+```
+* Next change directory to the repo by typing:
+```
+$ cd Lab01-Intro-to-GitHub-Spring-2018
+```
+* Look into the repo by typing:
+```
+$ ls
+```
+
+You see? All of the files are there! This is great right? Now you have a local copy of the repo sitting on your machine. No matter what you do, you will not mess up the originals. All of your edits/changes will be local on your machine until you push your changes back to the server. So let's do that. -->
 </section>
-<section id="why-should-i-care-about-git" class="slide level2">
-<h2>Why should I care about <code>Git</code>?</h2>
+<section id="why-should-use-git" class="slide level2">
+<h2>Why should use <code>Git</code>?</h2>
 <p>The main reason right now is because we will be using it to turn in assignments during this class. But besides that it is a very powerful tool that will help future you be successful. Here are a few reasons why git is great:</p>
 <ul>
-<li class="fragment">Version control, keeps all machines up to date with latest code</li>
-<li class="fragment">Helps keep track of conflicts on collaborative projects</li>
+<li class="fragment">Version control, keeps all machines up to date</li>
+<li class="fragment">Helps keep track of conflicts</li>
 <li class="fragment">Complete history of your projects</li>
 <li class="fragment">Easy testing without breaking your code</li>
 </ul>
-<p>On top of this, git manages all of your files for you. But to do this it has to know your file is there. Hence you have to add new files.</p>
 </section>
-<section id="adding-files" class="slide level2">
-<h2>Adding Files</h2>
-<p>Let’s do some text editing. So all of us are on the same page, download and install <a href="https://atom.io/">https://atom.io/</a>. Once installed, open up this lab repo. Atom is just another text editor. Throughout this semester we will be exposed to a variety of editors. At some point you just need to pick your favorite.</p>
-<p>Let’s create a new file. Do the following:</p>
+<section id="how-to-do-your-homework-anaconda" class="slide level2">
+<h2>How to do your homework (Anaconda)</h2>
 <ul>
-<li class="fragment">Use Atom to create a new file in <code>~/Lab01-Intro-to-GitHub-Spring-2018/</code> called <code>MyFirstJavaCode.java</code>.</li>
-<li class="fragment">Cut and paste the following into the file:</li>
-</ul>
-<pre><code>public class MyFirstJavaCode {
-   public static void main(String[] args) {
-      // Prints whatever you want in the terminal window.
-      System.out.println(&quot;Hello, World&quot;);
-   }
-}</code></pre>
+<li class="fragment">Open Anaconda Navigator
 <ul>
-<li class="fragment">Change <code>"Hello, World"</code> to whatever you want. Make sure and keep the quotes. Save this file.</li>
-<li class="fragment">At this point Git does not even know your file exists. To see what I mean run the following in Git Bash:</li>
+<li class="fragment">Launch Jupyter Notebook</li>
+<li class="fragment">Navigate to file in homework repo</li>
+<li class="fragment">Edit, commit, push</li>
+</ul></li>
 </ul>
-<pre><code>$ git status</code></pre>
-<p>You see? Untracked files! In order for Git to track your files, you need to add it. So let’s do that:</p>
-<pre><code>$ git add MyFirstJavaCode.java</code></pre>
-<p>Typing <code>git status</code> again should show you that there is a new file being tracked.</p>
-<p>Now you can edit to your hearts content and Git will track all of your changes. But how are the changes tracked?</p>
 </section>
-<section id="committing-changes" class="slide level2">
-<h2>Committing Changes</h2>
-<pre><code>$ git commit -am &#39;message that describes the change&#39;</code></pre>
-</section>
-<section id="pulling-pulling-down-server-info-to-local-machine" class="slide level2">
-<h2>Pulling (Pulling down server info to local machine)</h2>
-<pre><code>$ git pull</code></pre>
-</section>
-<section id="pushing-pushing-up-local-changes-to-server" class="slide level2">
-<h2>Pushing (Pushing up local changes to server)</h2>
-<pre><code>$ git push</code></pre>
-</section>
-<section id="pull-request-submitting-lab-assignments" class="slide level2">
-<h2>Pull Request (Submitting Lab Assignments)</h2>
-<p>Using the GitHub interface.</p>
+<section id="how-to-do-your-homework-command-line" class="slide level2">
+<h2>How to do your homework (Command Line)</h2>
+<p>Install and run Jupyter Notebook</p>
+<pre><code>$ python3 -m pip install jupyter --user
+$ jupyter notebook</code></pre>
+<ul>
+<li class="fragment">Navigate to file in homework repo</li>
+<li class="fragment">Edit, commit, push</li>
+</ul>
 </section>
 <section id="review" class="slide level2">
 <h2>Review</h2>
-<p>Here is a quick overview of todays lab. For all future labs, the work-flow will be as follows:</p>
+<p>Here is a quick overview of <code>git</code>. For all future labs, the work-flow will be as follows:</p>
 <ul>
-<li class="fragment">Fork repo to your account if not already there</li>
-<li class="fragment">Clone repo to your local machine (<code>git clone url/to/repo</code>)</li>
+<li class="fragment">Clone repo to your local machine
+<ul>
+<li class="fragment"><code>git clone url/to/repo</code></li>
+</ul></li>
 <li class="fragment">Navigate to repo (using <code>cd</code> and <code>ls</code>)</li>
 <li class="fragment">Add files if needed (<code>git add filename</code>)</li>
-<li class="fragment">Commit any new changes as you go (<code>git commit -a -m 'message'</code>)</li>
+<li class="fragment">Commit any new changes
+<ul>
+<li class="fragment"><code>git commit -am 'message'</code></li>
+</ul></li>
 <li class="fragment">Pull new changes from server (<code>git pull</code>)</li>
 <li class="fragment">Push your changes to server (<code>git push</code>)</li>
-<li class="fragment">Submit assignment with pull request (using GitHub interface)</li>
 </ul>
 </section>
 <section><section id="intro-to-machine-learning" class="title-slide slide level1"><h1>Intro to Machine Learning</h1></section><section id="what-is-it" class="slide level2">

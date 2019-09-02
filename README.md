@@ -2,7 +2,7 @@
 
 In this repo you will find course notes, slides, as well as other resources. To access slides online goto, blah blah...
 
-https://git-scm.com/book/en/v2/Git-Tools-Submodules
+[https://git-scm.com/book/en/v2/Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
 Here are some links to resources that might help you during the semester. 
 
@@ -19,6 +19,7 @@ Here are some links to resources that might help you during the semester.
 
 ## Websites
 
+- ['/r/datasets/'](https://www.reddit.com/r/datasets/): Community that shares lots of data sets to play with
 - [`/r/datascience wiki`](https://www.reddit.com/r/datascience/wiki/resources): This has lots of different recourses. 
 - [`https://www.kaggle.com/`](https://www.kaggle.com/): Lots of different data sets to play with in a fun interactive environment.
 - [`UC Irvine Machine Learning Repository`](https://archive.ics.uci.edu/ml/index.php): 481 data sets to learn on. 

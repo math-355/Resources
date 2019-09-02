@@ -4,7 +4,7 @@ MY_SLIDES=01-title.md \
 	04-ML-Example.md \
 
 HTML_SLIDES = $(MY_SLIDES:.md=.html)
-n=3
+n=2
 
 RELOAD_KEYS="F5"
 BROWSER='firefox'
@@ -12,7 +12,14 @@ BROWSER='firefox'
 MYWINDOW=$(xdotool getactivewindow)
 
 slides:
-	pandoc -s --mathml -i -t revealjs $(word 1, $(MY_SLIDES)) $(word $n, $(MY_SLIDES)) -o $(word $n, $(HTML_SLIDES))
+	pandoc -s --template=revealjs-template.html --mathml \
+		-V controls=true \
+		-V progress=true \
+		-V hash=true \
+		-V center=false \
+		-V theme=simple \
+		-V revealjs-url=./reveal.js \
+		-i -t revealjs $(word 1, $(MY_SLIDES)) $(word $n, $(MY_SLIDES)) -o $(word $n, $(HTML_SLIDES))
 
 all_slides:
 	pandoc -s --template=revealjs-template.html --mathml \
