@@ -99,7 +99,11 @@ Try it out!
 
 ## Our first clone
 
-It's time to clone a repo. Go to your a first homework assignment and click on the button that says `Clone or download`, then copy the link. Then type the following into the command line. 
+It's time to clone a repo. Go to your a first homework assignment and click on the button that says 
+
+`Clone or download`
+
+then copy the link. Then type the following into the command line. 
 
 ```
 $ git clone COPIEDLINK
