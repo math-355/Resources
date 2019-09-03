@@ -1,6 +1,10 @@
 # Resources
 
-In this repo you will find course notes, slides, as well as other resources. To view the slides, clone the repo and look for `html` files. If you are interested in building the slides you will need to update the submodules and use [pandoc](https://pandoc.org/).
+In this repo you will find course notes, slides, as well as other resources. To view the slides go to 
+
+[https://math-355.github.io/Resources/](https://math-355.github.io/Resources/)
+
+If you are interested in building the slides you will need to update the submodules and use [pandoc](https://pandoc.org/).
 
 [https://git-scm.com/book/en/v2/Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
