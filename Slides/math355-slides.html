@@ -30,6 +30,11 @@
   <!--[if lt IE 9]>
   <script src="./reveal.js/lib/js/html5shiv.js"></script>
   <![endif]-->
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+
 </head>
 <body>
   <div class="reveal">
@@ -237,7 +242,45 @@ $ jupyter notebook</code></pre>
 </section>
 <section><section id="intro-to-machine-learning" class="title-slide slide level1"><h1>Intro to Machine Learning</h1></section><section id="what-is-it" class="slide level2">
 <h2>What is it?</h2>
-<p>There are three main tasks.</p>
+<p>According to the book, machine learning is the science of programming computers so they can <em>learn from data</em>.</p>
+<ul>
+<li class="fragment">(Aurthur Samuel, 1959) Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.</li>
+</ul>
+</section><section id="example-the-spam-filter" class="slide level2">
+<h2>Example: The SPAM filter</h2>
+<p><img data-src="./img/spam-filter.jpg" /></p>
+</section><section id="naive-approach" class="slide level2">
+<h2>Naive approach</h2>
+<p><img data-src="./img/spam-traditional.png" /></p>
+<ul>
+<li class="fragment">You notice <em>4U</em>, <em>free</em>, <em>amazing</em> are used a lot</li>
+<li class="fragment">Then write code to stop these emails</li>
+</ul>
+</section><section class="slide level2">
+
+<p>But if the spammers notice they are being blocked, they will start using <em>4 you</em> instead.</p>
+<ul>
+<li class="fragment">If this happens you need to write more rules</li>
+<li class="fragment">Your code will become exponentially large and unmanageable.</li>
+<li class="fragment">Thankfully there is a better way.</li>
+</ul>
+</section><section id="ml-approach" class="slide level2">
+<h2>ML Approach</h2>
+<p><img data-src="./img/spam-ml.png" /></p>
+<ul>
+<li class="fragment">All of this can be automated!</li>
+</ul>
+</section><section class="slide level2">
+
+<p>Blocking SPAM is not the only thing ML is good for. You can use it for</p>
+<ul>
+<li class="fragment">Problems for which existing solutions require a lot rules</li>
+<li class="fragment">Complex problems where there is not good traditional solutions</li>
+<li class="fragment">Fluctuating environments</li>
+<li class="fragment">Getting insights about large amounts of data</li>
+</ul>
+</section><section id="there-are-three-main-tasks." class="slide level2">
+<h2>There are three main tasks.</h2>
 <ul>
 <li class="fragment">Supervised</li>
 <li class="fragment">Unsupervised</li>
@@ -245,26 +288,97 @@ $ jupyter notebook</code></pre>
 </ul>
 </section><section id="supervised-learning" class="slide level2">
 <h2>Supervised Learning</h2>
+<p><img data-src="./img/supervised-ml.png" /></p>
+</section><section class="slide level2">
+
+<p>Types of supervised learning include:</p>
 <ul>
 <li class="fragment">Regression</li>
 <li class="fragment">Decision Trees</li>
+<li class="fragment">Random Forests</li>
 <li class="fragment">Support Vector Machine</li>
 <li class="fragment">Neural Networks</li>
 </ul>
 </section><section id="unsupervised-learning" class="slide level2">
 <h2>Unsupervised Learning</h2>
+<p><img data-src="./img/unsupervised2.png" /> <img data-src="./img/unsupervised1.png" /></p>
+</section><section class="slide level2">
+
+<p>Types of unsupervised learning include:</p>
 <ul>
 <li class="fragment">k-clusters</li>
 <li class="fragment">Principle Component Analysis</li>
+<li class="fragment">Expectation Maximization</li>
+<li class="fragment">t-distributed Stochastic Neighbor Embedding</li>
+<li class="fragment">Apriori</li>
+<li class="fragment">Eclat</li>
 </ul>
 </section><section id="reinforcement" class="slide level2">
 <h2>Reinforcement</h2>
+<p><img data-src="./img/reinforcement-ml.png" /></p>
 <ul>
 <li class="fragment">AI</li>
 <li class="fragment">AlphaGo</li>
 </ul>
-</section><section id="challenges-with-ml" class="slide level2">
-<h2>Challenges with ML</h2>
+</section><section id="example-life-satisfaction" class="slide level2">
+<h2>Example: Life Satisfaction</h2>
+<p><img data-src="./img/life-sat-1.png" /></p>
+<p>Can we find parameters <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>θ</mi><mn>0</mn></msub><annotation encoding="application/x-tex">\theta_0</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>θ</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\theta_1</annotation></semantics></math> for</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>l</mi><mi>i</mi><mi>f</mi><mi>e</mi><mi>S</mi><mi>a</mi><mi>t</mi><mo>=</mo><msub><mi>θ</mi><mn>0</mn></msub><mo>+</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>⋅</mo><mi>G</mi><mi>D</mi><mi>P</mi><mi>?</mi></mrow><annotation encoding="application/x-tex">lifeSat = \theta_0+\theta_1 \cdot GDP?</annotation></semantics></math></p>
+</section><section class="slide level2">
+
+<p><img data-src="./img/life-sat-2.png" /></p>
+<p>There are infinitely many to choose from, but there can be only one.</p>
+</section><section class="slide level2">
+
+<p><img data-src="./img/life-sat-3.png" /></p>
+<ul>
+<li class="fragment">The problem is, does this extend well when more data is added?</li>
+<li class="fragment">Turns out more countries exist!</li>
+</ul>
+</section><section class="slide level2">
+
+<p><img data-src="./img/life-sat-4.png" /></p>
+<ul>
+<li class="fragment">The dotted line is our old model.</li>
+<li class="fragment">But when we refit with new data, we get a different line.</li>
+<li class="fragment">Notice it does not do such a great job for “poor” Luxembourg.</li>
+</ul>
+</section><section id="challenges-of-ml" class="slide level2">
+<h2>Challenges of ML</h2>
+<ul>
+<li class="fragment">Not enough training data.
+<ul>
+<li class="fragment">Turns out all models perform the same when given enough data.</li>
+</ul></li>
+<li class="fragment">Bad representation in data (Sampling Bias)
+<ul>
+<li class="fragment">Page 25 has a nice example of this.</li>
+</ul></li>
+<li class="fragment">Poor Quality Data
+<ul>
+<li class="fragment">Missing information</li>
+<li class="fragment">too many outliers</li>
+</ul></li>
+<li class="fragment">Irrelevant Features</li>
+<li class="fragment">Overfitting training data</li>
+</ul>
+</section><section class="slide level2">
+
+<p>An example of overfitting using the Lagrange polynomial.</p>
+<p><img data-src="./img/life-sat-5.png" /></p>
+</section><section class="slide level2">
+
+<p>Overfitting happens when the model is too complex relative to the amount of noisiness of the training data. Solutions are</p>
+<ul>
+<li class="fragment">Simplify the model by selecting hone with fewer parameters (maybe just use <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>θ</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\theta_1</annotation></semantics></math>?)</li>
+<li class="fragment">Gather more data (very expensive)</li>
+<li class="fragment">reduce the noise (fill in missing info, remove outliers)</li>
+</ul>
+</section><section class="slide level2">
+
+<p>In our situation, if we place bounds on <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>θ</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\theta_1</annotation></semantics></math>, we can then have two variables to “move around”. This process is called <strong>regularization</strong>.</p>
+<p><img data-src="./img/life-sat-6.png" /></p>
 </section></section>
 <section><section id="example-of-machine-learning-project" class="title-slide slide level1"><h1>Example of Machine Learning Project</h1></section><section id="the-problem" class="slide level2">
 <h2>The problem</h2>
