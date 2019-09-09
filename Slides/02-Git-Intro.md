@@ -1,4 +1,6 @@
-## Getting started with Git
+# Getting started with Git
+
+## What is `git`?
 
 Today we will discuss the delivery method of all course materials, assignments, and projects. This method will rely on learning `git`. 
 
