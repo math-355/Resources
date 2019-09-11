@@ -1,1 +1,9 @@
 .DS_Store
+.nbgrader.log
+.ipynb_checkpoints/
+Housing-Project/housing_data/sample_submission.csv
+Housing-Project/housing_data/submission.csv
+Housing-Project/housing_data/test.csv
+Housing-Project/housing_data/train.csv
+Slides/node_modules/
+Slides/package-lock.json
