@@ -1,0 +1,78 @@
+[LabApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[LabApp | INFO] Loading the validate_assignment nbgrader serverextension
+[LabApp | WARNING] JupyterLab server extension not enabled, manually loading...
+[LabApp | INFO] JupyterLab extension loaded from /Users/bstone/Library/Python/3.7/lib/python/site-packages/jupyterlab
+[LabApp | INFO] JupyterLab application directory is /Users/bstone/Library/Python/3.7/share/jupyter/lab
+[LabApp | INFO] Serving notebooks from local directory: /Users/bstone/GitHub/math355/Resources
+[LabApp | INFO] The Jupyter Notebook is running at:
+[LabApp | INFO] http://localhost:8888/?token=3fe7a68d25d5be07d5b26fa4697e3bd9b99be99ff80c3549
+[LabApp | INFO]  or http://127.0.0.1:8888/?token=3fe7a68d25d5be07d5b26fa4697e3bd9b99be99ff80c3549
+[LabApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[LabApp | CRITICAL] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/bstone/Library/Jupyter/runtime/nbserver-12668-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=3fe7a68d25d5be07d5b26fa4697e3bd9b99be99ff80c3549
+     or http://127.0.0.1:8888/?token=3fe7a68d25d5be07d5b26fa4697e3bd9b99be99ff80c3549
+[LabApp | INFO] Build is up to date
+[LabApp | WARNING] 404 GET /api/contents/champs-scalar-coupling-kaggle?1568052408441 (::1): No such file or directory: champs-scalar-coupling-kaggle
+[LabApp | WARNING] No such file or directory: champs-scalar-coupling-kaggle
+[LabApp | WARNING] 404 GET /api/contents/champs-scalar-coupling-kaggle?1568052408441 (::1) 2.64ms referer=http://localhost:8888/lab
+[LabApp | WARNING] 404 GET /api/contents/champs-scalar-coupling-kaggle/Data_Exploration.ipynb?content=0&1568052408442 (::1): No such file or directory: champs-scalar-coupling-kaggle/Data_Exploration.ipynb
+[LabApp | WARNING] No such file or directory: champs-scalar-coupling-kaggle/Data_Exploration.ipynb
+[LabApp | WARNING] 404 GET /api/contents/champs-scalar-coupling-kaggle/Data_Exploration.ipynb?content=0&1568052408442 (::1) 20.84ms referer=http://localhost:8888/lab
+[LabApp | INFO] interrupted
+[LabApp | CRITICAL] Shutdown confirmed
+[LabApp | INFO] Shutting down 0 kernels
+[LabApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[LabApp | INFO] Loading the validate_assignment nbgrader serverextension
+[LabApp | WARNING] JupyterLab server extension not enabled, manually loading...
+[LabApp | INFO] JupyterLab extension loaded from /Users/bstone/Library/Python/3.7/lib/python/site-packages/jupyterlab
+[LabApp | INFO] JupyterLab application directory is /Users/bstone/Library/Python/3.7/share/jupyter/lab
+[LabApp | INFO] Serving notebooks from local directory: /Users/bstone/GitHub/math355/Resources
+[LabApp | INFO] The Jupyter Notebook is running at:
+[LabApp | INFO] http://localhost:8888/?token=cd649466451202627e56622f8f7f58f21ce0cd1343a9addc
+[LabApp | INFO]  or http://127.0.0.1:8888/?token=cd649466451202627e56622f8f7f58f21ce0cd1343a9addc
+[LabApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[LabApp | CRITICAL] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/bstone/Library/Jupyter/runtime/nbserver-12710-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=cd649466451202627e56622f8f7f58f21ce0cd1343a9addc
+     or http://127.0.0.1:8888/?token=cd649466451202627e56622f8f7f58f21ce0cd1343a9addc
+[LabApp | INFO] Build is up to date
+[LabApp | INFO] interrupted
+[LabApp | CRITICAL] Shutdown confirmed
+[LabApp | INFO] Shutting down 0 kernels
+[LabApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[LabApp | INFO] Loading the validate_assignment nbgrader serverextension
+[LabApp | WARNING] JupyterLab server extension not enabled, manually loading...
+[LabApp | INFO] JupyterLab extension loaded from /Users/bstone/Library/Python/3.7/lib/python/site-packages/jupyterlab
+[LabApp | INFO] JupyterLab application directory is /Users/bstone/Library/Python/3.7/share/jupyter/lab
+[LabApp | INFO] Serving notebooks from local directory: /Users/bstone/GitHub/math355/Resources
+[LabApp | INFO] The Jupyter Notebook is running at:
+[LabApp | INFO] http://localhost:8888/?token=530958f864f3b8cd377a2e7f1762f112c60193b21a025de7
+[LabApp | INFO]  or http://127.0.0.1:8888/?token=530958f864f3b8cd377a2e7f1762f112c60193b21a025de7
+[LabApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[LabApp | CRITICAL] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/bstone/Library/Jupyter/runtime/nbserver-12784-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=530958f864f3b8cd377a2e7f1762f112c60193b21a025de7
+     or http://127.0.0.1:8888/?token=530958f864f3b8cd377a2e7f1762f112c60193b21a025de7
+[LabApp | INFO] 301 GET /lab/workspaces/auto-u/?clone (::1) 13.73ms
+[LabApp | INFO] Build is up to date
+[LabApp | WARNING] Notebook Housing-Project/housing_lecture_01.ipynb is not trusted
+[LabApp | INFO] Kernel started: 02c4720f-a56c-4e6d-b2c8-187bd604b2c9
+[LabApp | ERROR] Could not open static file ''
+[LabApp | WARNING] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (::1) 67.84ms referer=http://localhost:8888/lab/workspaces/auto-u
+[LabApp | INFO] Kernel restarted: 02c4720f-a56c-4e6d-b2c8-187bd604b2c9
+[LabApp | INFO] Saving file at /Housing-Project/housing_lecture_01.ipynb
+[LabApp | INFO] Saving file at /Housing-Project/housing_lecture_01.ipynb
+[LabApp | INFO] interrupted
+[LabApp | CRITICAL] Shutdown confirmed
+[LabApp | INFO] Shutting down 1 kernel
+[LabApp | INFO] Kernel shutdown: 02c4720f-a56c-4e6d-b2c8-187bd604b2c9
